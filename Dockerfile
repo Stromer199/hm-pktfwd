@@ -7,7 +7,7 @@ ARG BUILD_ARCH=arm64
 
 # Set up correct image paths
 ARG PKTFWD_PATH=nebraltd/packet_forwarder:$BUILD_ARCH-e1aca266845203824889cfcd869ea64de3129113
-ARG SX1302_PATH=heliumdiy/sx1302_hal
+ARG SX1302_PATH=stromer199/sx1302_hal
 
 # Pull the builds for later use
 # hadolint ignore=DL3006
